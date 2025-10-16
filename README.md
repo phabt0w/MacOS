@@ -15,7 +15,5 @@
 #   - macOS (bash, curl, pkgutil, installer, defaults, stat, launchctl, ioreg)
 #
 # Usage in Jamf Pro:
-#   Run this script as a Jamf policy (Shell: /bin/bash). Schedule in a
-#   maintenance window when users are typically idle.
-
-# It created to run from Jamf Pro. The idle time was added to make sure that the user is not impacted during his work by the update script. 
+#   - run this script as a Jamf policy (Shell: /bin/bash). Schedule in a maintenance window when users are typically idle.
+#   - the idle time was added to make sure that the user is not impacted during his work by the update script. 
